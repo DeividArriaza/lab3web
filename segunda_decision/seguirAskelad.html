@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Seguir a Askeladd</title>
+</head>
+<body>
+
+    <header>
+        <h1>Thorfinn sigue a Askeladd</h1>
+    </header>
+
+    <nav aria-label="Breadcrumb">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../primera_decision/embarcarse.html">Embarcarse</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+    <label for="progreso">Progreso de la historia:</label>
+    <progress id="progreso" value="67" max="100"></progress>
+
+    <article>
+
+    <section>
+        <h2>Un juramento de venganza</h2>
+        <p>
+            Consumido por la ira, Thorfinn decide infiltrarse en la tripulación de Askeladd.
+            Jura que algún día lo derrotará en un duelo justo.
+        </p>
+
+        <figure>
+            <img src="../images/thorfinn_enojado.png" alt="Thorfinn decidido a vengarse">
+            <figcaption>Thorfinn jura vengar la muerte de su padre.</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>La vida entre mercenarios</h2>
+        <p>
+            Para poder retar a Askeladd, Thorfinn debe ganarse su lugar entre los mercenarios.
+            Cada batalla lo transforma más y más.
+        </p>
+
+        <details>
+            <summary>¿Por qué Askeladd acepta a Thorfinn?</summary>
+            <p>
+                Askeladd ve potencial en él y también disfruta manipulando su deseo de venganza.
+            </p>
+        </details>
+    </section>
+
+    <p>Ahora que ha pasado el tiempo, Thorfinn se ha convertido en un guerrero temible, y por diferentes motivos llega el momento en que observa como alguien más mata a Askeladd.</p>
+    <figure>
+            <img src="../images/muerteAskeladd.png" alt="Thorfinn decidido a vengarse">
+            <figcaption>Thorfinn jura vengar la muerte de su padre.</figcaption>
+    </figure>
+    <p>Thorfinn pierde su sentido de vida ahora que Askeladd muere, por lo que debe tomar una decisión:</p>
+    <nav>
+        <ul>
+            <li><a href="../tercera_decision/acabarVida.html">Acabar con su vida</a></li>
+            <li><a href="../tercera_decision/granja.html">Ir a una granja</a></li>
+        </ul>
+    </nav>
+
+    </article>
+
+    <aside>
+        <h3>Consecuencia</h3>
+        <p>
+            La venganza comienza a consumir el corazón de Thorfinn.
+        </p>
+    </aside>
+
+    <button onclick="document.getElementById('mensaje').showModal()">
+        Pensamiento de Thorfinn
+    </button>
+
+    <dialog id="mensaje">
+        <form method="dialog">
+            <p>Te derrotaré algún día, Askeladd...</p>
+            <button>Cerrar</button>
+        </form>
+    </dialog>
+
+    </main>
+
+    <footer>
+        <p><time datetime="2026-02-17">17 de febrero de 2026</time></p>
+        <p>©2026 Vinlandia</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Quedarse en casa</title>
+</head>
+<body>
+    <header>
+        <h1>Thorfinn decide quedarse</h1>
+    </header>
+
+    <nav aria-label="Breadcrumb">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+    <label for="progreso">Progreso de la historia:</label>
+    <progress id="progreso" value="0" max="100"></progress>
+    <article>
+
+        <section>
+            <h2>Una decisión prudente</h2>
+            <p>
+                Thorfinn observa el barco alejarse lentamente. Este quiere seguir a su padre,
+                pero decide quedarse en casa, protegiendo a su madre y hermana.
+            </p>
+
+            <figure>
+                <img src="../images/ThorsParte.jpg" alt="Thors despidiéndose antes de zarpar">
+                <figcaption>Thors parte mientras Thorfinn observa desde la orilla.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>La espera</h2>
+            <p>
+                Los días pasan, pero Thorfinn siente que ha perdido algo importante.
+                Este se arrepiente de su decisión y decide que lo mejor habría sido acompañar a su padre.
+            </p>
+
+            <details>
+                <summary>¿Qué pudo haber pasado si embarcaba?</summary>
+                <p>
+                    Tal vez habría enfrentado el verdadero mundo vikingo y aprendido el significado
+                    real de las palabras de su padre.
+                </p>
+            </details>
+        </section>
+
+    </article>
+
+    <aside>
+        <h3>Reflexión de Thors</h3>
+        <p>
+            "Un verdadero guerrero no necesita espada."
+        </p>
+    </aside>
+
+    <button onclick="document.getElementById('mensaje').showModal()">
+        Pensamientos de Thorfinn
+    </button>
+
+    <dialog id="mensaje">
+        <form method="dialog">
+            <p>¿Habré tomado la decisión correcta?</p>
+            <button>Cerrar</button>
+        </form>
+    </dialog>
+
+
+    </main>
+
+    <footer>
+        <p><time datetime="2026-02-17">17 de febrero de 2026</time></p>
+        <p>©2026 Vinlandia</p>
+    </footer>
+
+</body>
+</html>

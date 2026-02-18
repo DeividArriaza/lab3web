@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Regresar a casa</title>
+</head>
+<body>
+
+<header>
+    <h1>Thorfinn regresa a casa</h1>
+</header>
+
+<nav aria-label="Breadcrumb">
+    <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../primera_decision/embarcarse.html">Embarcarse</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<label for="progreso">Progreso de la historia:</label>
+<progress id="progreso" value="0" max="100"></progress>
+
+<article>
+
+<section>
+    <h2>Un regreso silencioso</h2>
+    <p>
+        Devastado por la muerte de su padre, Thorfinn decide regresar con su familia.
+        El dolor permanece, pero decide no seguir el camino de la violencia.
+    </p>
+
+    <figure>
+        <img src="../images/thorfinn_casa.jpg" alt="Thorfinn regresando a casa">
+        <figcaption>Thorfinn vuelve a Islandia con el corazón roto.</figcaption>
+    </figure>
+</section>
+
+<section>
+    <h2>Las palabras de Thors</h2>
+    <p>
+        Con el tiempo, recuerda las palabras de su padre:
+        nadie tiene enemigos.
+    </p>
+
+    <details>
+        <summary>¿Qué habría pasado si elegía venganza?</summary>
+        <p>
+            Su vida habría estado marcada por la guerra y el sufrimiento, pero él piensa que se habría sentido mejor.
+        </p>
+    </details>
+</section>
+
+<p>Este camino de la historia se detiene aquí, donde Thorfinn se pregunta si en verdad hizo lo correcto en regresar y no vengar a su padre.</p>
+
+<nav>
+    <ul>
+        <li><a href="../index.html">Volver al inicio</a></li>
+    </ul>
+</nav>
+
+</article>
+
+<aside>
+    <h3>Reflexión</h3>
+    <p>
+        Thorfinn cree que lo mejor es el camino de la violencia, pero tal vez lo mejor sea quedarse.
+    </p>
+</aside>
+
+<button onclick="document.getElementById('mensaje').showModal()">
+    Último pensamiento
+</button>
+
+<dialog id="mensaje">
+    <form method="dialog">
+        <p>Padre... te extraño</p>
+        <button>Cerrar</button>
+    </form>
+</dialog>
+
+</main>
+
+<footer>
+    <p><time datetime="2026-02-17">17 de febrero de 2026</time></p>
+    <p>©2026 Vinlandia</p>
+</footer>
+
+</body>
+</html>

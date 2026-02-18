@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Embarcarse con Thors</title>
+</head>
+<body>
+
+    <header>
+        <h1>Thorfinn se embarca</h1>
+    </header>
+
+    <nav aria-label="Breadcrumb">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+    <label for="progreso">Progreso de la historia:</label>
+    <progress id="progreso" value="33" max="100"></progress>
+
+    <article>
+
+        <section>
+            <h2>El inicio del viaje</h2>
+            <p>
+                Sin dudarlo, Thorfinn se esconde en el barco de su padre.
+                Su aventura comienza, y su padre lo encuentra, pero en lugar de molestarse, le permite acompañarlo.
+            </p>
+
+            <figure>
+                <img src="../images/barco_vikingo.png" alt="Barco vikingo navegando">
+                <figcaption>El barco parte hacia lo desconocido.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>El verdadero campo de batalla</h2>
+            <p>
+                Durante la expedición, Thorfinn presencia la brutalidad del mundo real.
+                Las palabras de su padre empiezan a tener un nuevo significado. Se topan con un grupo de mercenarios quienes retan a su padre a un duelo. 
+                Estos no dudan en usar una jugada sucia, puesto que Thors los acorrala y es un gran guerrero, por eso usan a Thorfinn como rehen.
+                Su padre cede y es asesinado frente a Thorfinn.
+            </p>
+            <figure>
+                <img src="../images/muerte_thors.jpeg" alt="Thors antes de su muerte">
+                <figcaption>Thors antes de su muerte.</figcaption>
+            </figure>
+            <details>
+                <summary>¿Quien era el lider de estos mercenarios?</summary>
+                <figure>
+                    <img src="../images/Askelad.jpeg" alt="Askeladd, el líder de los mercenarios">
+                    <figcaption>Askeladd, el líder de los mercenarios.</figcaption>
+                </figure>
+                <p>
+                    Askeladd, un astuto y carismático líder mercenario, es también el responsable de la muerte de Thors.
+                </p>
+            </details>
+        </section>
+        <p>Ahora, la tripulación que acompañaba a Thors deciden regresar a casa, pero Thorfinn debe tomar una decisión:</p>
+        <nav>
+            <ul>
+                <li><a href="../segunda_decision/seguirAskelad.html">Infiltrarse en la tripulación de Askeladd</a></li>
+                <li><a href="../segunda_decision/regresarCasa.html">Regresar a casa</a></li>
+            </ul>
+        </nav>
+
+    </article>
+
+    <aside>
+        <h3>Consejo de Thors</h3>
+        <p>
+            "No tienes enemigos. Nadie los tiene."
+        </p>
+    </aside>
+
+    <button onclick="document.getElementById('mensaje').showModal()">
+        Pensamiento de Thors
+    </button>
+
+    <dialog id="mensaje">
+        <form method="dialog">
+            <p>Debo proteger a mi hijo, incluso si el destino es cruel.</p>
+            <button>Cerrar</button>
+        </form>
+    </dialog>
+
+
+    </main>
+
+    <footer>
+        <p><time datetime="2026-02-17">17 de febrero de 2026</time></p>
+        <p>©2026 Vinlandia</p>
+    </footer>
+</body>
+</html>
